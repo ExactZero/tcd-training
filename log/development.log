@@ -385,3 +385,45 @@ Started GET "/" for 127.0.0.1 at 2015-08-02 02:02:30 -0700
 Processing by VisitorsController#new as HTML
   Rendered visitors/new.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 729ms (Views: 728.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-04 01:52:29 -0700
+Processing by VisitorsController#new as HTML
+  Rendered visitors/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 156ms (Views: 147.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-04 02:56:01 -0700
+Processing by VisitorsController#new as HTML
+  Rendered visitors/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.5ms)
+  Rendered layouts/_navigation.html.erb (2.2ms)
+  Rendered layouts/_messages.html.erb (1.1ms)
+Completed 200 OK in 197ms (Views: 194.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-04 03:22:48 -0700
+Processing by VisitorsController#new as HTML
+  Rendered visitors/new.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messages.html.erb (1.1ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-04 03:23:37 -0700
+Processing by VisitorsController#new as HTML
+  Rendered visitors/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-04 03:23:47 -0700
+Processing by VisitorsController#new as HTML
+  Rendered visitors/new.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
