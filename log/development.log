@@ -427,3 +427,12 @@ Processing by VisitorsController#new as HTML
   Rendered layouts/_navigation.html.erb (2.6ms)
   Rendered layouts/_messages.html.erb (0.1ms)
 Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-04 04:13:33 -0700
+Processing by VisitorsController#new as HTML
+  Rendered visitors/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.1ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+Completed 200 OK in 4618ms (Views: 4617.0ms | ActiveRecord: 0.0ms)
