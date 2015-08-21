@@ -1,3 +1,23 @@
 <%# add navigation links to this file %>
 <li><%= link_to 'About', page_path('about') %></li>
-<li><%= link_to 'Contact', new_contact_path %></li>
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000"><li><%= link_to 'Phones' %></li></a>
+	<ul id="hover1" class="f-dropdown" data-dropdown-content>
+		<li><%= link_to 'How to Approach Prospective Clients' %></li>
+		<li><%= link_to 'Qualifying Potential Customers' %></li>
+		<li><%= link_to 'How to Close the Sale (Give-Away)' %></li>
+		<li><%= link_to 'Using CGM - Practical Tips' %></li>
+	</ul>
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000"><li><%= link_to 'Agents' %></li></a>
+	<ul id="hover1" class="f-dropdown" data-dropdown-content>
+		<li><%= link_to 'How to Close New Agents' %></li>
+		<li><%= link_to 'Friends and Family Approach' %></li>
+		<li><%= link_to 'Complete Stranger Approach' %></li>
+		<li><%= link_to 'List Buying & Cold Calling' %></li>
+		<li><%= link_to 'Internet Marketing Prospects Remotely' %></li>
+	</ul>
+<a href="#" data-dropdown="hover1" data-options="is_hover:true; hover_timeout:5000"><li><%= link_to 'Mindset' %></li></a>
+	<ul id="hover1" class="f-dropdown" data-dropdown-content>
+		<li><%= link_to 'Its a Numbers Game' %></li>
+		<li><%= link_to 'How to Respond to Lack of Support from Friends and Family' %></li>
+	</ul>
+
