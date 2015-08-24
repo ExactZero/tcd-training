@@ -17,9 +17,12 @@ gem 'spring'
 # learn-rails
 gem 'foundation-rails'
 gem 'gibbon'
-gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
+
+# Authentication
+gem 'bcrypt', '~> 3.1.7'
+
 group :development do
 gem 'better_errors'
 gem 'quiet_assets'
